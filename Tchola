@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main
+{
+	
+	public static void main(String[] args) {
+	    Scanner entrada = new Scanner(System.in);
+		String campeao;
+		int Nivel;
+		String nickname;
+		
+		System.out.println("Olá! Qual seu nickname do League Of Leguends?");
+		nickname = entrada.nextLine();
+		System.out.println("Qual seu campeão preferido?");
+		campeao = entrada.nextLine();
+		System.out.println("Qual seu nivel de maestria com o boneco?");
+		Nivel = entrada.nextInt();
+		System.out.println("Parabens! Você é tchola!!");
+		
+		
+		
+		
+	}
+}
