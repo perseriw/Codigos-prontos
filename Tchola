@@ -8,7 +8,7 @@ public class Main
 		int Nivel;
 		String nickname;
 		
-		System.out.println("Olá! Qual seu nickname do League Of Leguends?");
+		System.out.println("Olá! Qual seu nickname do League Of Legends?");
 		nickname = entrada.nextLine();
 		System.out.println("Qual seu campeão preferido?");
 		campeao = entrada.nextLine();
